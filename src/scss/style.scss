@@ -1,0 +1,137 @@
+$icon-size:45px;
+$dark-overlay: rgba(0,0,0,0.7);
+
+body {
+  overflow-x:hidden;
+}
+
+.navbar-brand {
+  letter-spacing:2px;
+  font-weight:300;
+
+}
+.navbar {
+.nav-link{
+  font-size:14px;
+  text-transform:upperace;
+  padding-left:1em!important;
+  padding-right:1em!important;
+}
+  .nav-item.active {
+    border-left:#444 3px solid;
+  }
+
+}
+.carousel-caption {
+
+}
+.carousel-bg {
+  background:rgba(0,0,0,0.5);
+  position:absolute;
+  top:0px;
+  right:0px;
+  height:100%;
+  width:100%;
+}
+
+.carousel-item {
+  height:450px;
+
+}
+
+.carousel-image-1 {
+  background: url('../img/1.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.carousel-image-2 {
+  background: url('../img/2.jpg');
+  background-size:cover;
+  background-position:center;
+}
+.carousel-image-3 {
+  background: url('../img/3.jpg');
+  background-size:cover;
+  background-position:center;
+}
+
+.fa {
+  font-size: $icon-size;
+}
+
+#home-heading {
+  position:relative;
+  min-height:200px;
+  background: url('../img/4.jpg');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  text-align:center;
+  color:#fff;
+  background-size:cover;
+}
+
+#video-play {
+  position:relative;
+  min-height:200px;
+  background: url('../img/6.jpg');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  text-align:center;
+  color:#fff;
+  background-size:cover;
+  .fa.fa-play {
+    color:#fff;
+  }
+  .fa.fa-play:hover {
+    color:#eee;
+  }
+}
+
+#main-footer {
+  background:#eee;
+  color:#333;
+}
+
+#page-header {
+  height:200px;
+  background: url('../img/2.jpg');
+  background-attachment: fixed;
+  background-repeat:no-repeat;
+  text-align:center;
+  background-position:0 -460px;
+  color:#fff;
+  padding-top:50px;
+  background-size:cover;
+  position:relative;
+}
+#about {
+  img {
+    margin-top:-50px;
+    @media all and (max-width:767px) {
+      margin-top:50px;
+    }
+  }
+}
+#services {
+  .fa {
+    font-size:25px;
+  }
+}
+
+#faq {
+  .card-header {
+      background:#333;
+  }
+  .card-body {
+    background:#555;
+  }
+  .card {
+    border:#444;
+    a {
+    color:#fff;
+      width:100%;
+      display:block;
+      text-decoration:none;
+  }
+  }
+}
